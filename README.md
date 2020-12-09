@@ -30,13 +30,13 @@
    * [Sobre](##Sobre)
    * [Objetivo](##Objetivo)
    * [Funcionalidades](##Funcionalidades)
-   * [Pré Requisitos](##pre-requisitos)
-      * [Instruções](###instruções)
+   * [Pré Requisitos](##Pré-requisitos)
+      * [Instruções](###Instruções-para-utilização-da-API)
    * [Detalhes](##Detalhes)
       * [Tecnologias](###Tecnologias)
-      * [Contratos](###Contratos)
-      * [Dependências](###Dependências)
-   * [Referências](##referências)
+      * [Contratos](###Contratos-principais)
+      * [Dependências](###Dependências-utilizadas)
+   * [Referências](##Referências)
    * [Autora](#Autora)
    * [Licença](#Licença)
 <!--te-->
@@ -47,21 +47,21 @@ Projeto final do bootcamp {reprograma} em parceria com o MINAs do Porto Digital 
 
 Trata-se de uma API de Fornecedores de Alimentos e Bebidas(A&B) da cidade do Recife. A ideia surgiu a partir de uma notável dificuldade de empreendedores e empresas que estão iniciando no setor de A&B da cidade em questão de encontrar insumos para ser utilizados em seus empreendimentos.
 
-Inspirei-me em iniciativas como "[Menor Preço](https://play.google.com/store/apps/details?id=br.gov.pr.celepar.sefa.mp&hl=pt_BR)" (aplicativo que busca o menor preço de acordo com a localização configurada); porém, diferente deste aplicativo, esta API se destina a facilitar as buscas por fornecedores usando outros filtros além do preço. Tendo em vista que muitas vezes existe um valor mínimo de compra, ou a distância e/ou tempo de entrega podem ser fatores determinantes para o fechamento de uma compra.
+Inspirei-me em iniciativas como [Menor Preço](https://play.google.com/store/apps/details?id=br.gov.pr.celepar.sefa.mp&hl=pt_BR) (aplicativo que busca o menor preço de acordo com a localização configurada); porém, diferente deste aplicativo, esta API se destina a facilitar as buscas por fornecedores ou produto usando outros filtros. Tendo em vista que muitas vezes existe um valor mínimo de compra, ou a distância pode ser um fator determinante para o fechamento de uma compra.
 
 ## Objetivo:
 
-Este projeto visa criar uma forma de facilitar esta procura por fornecedores. Estes devem cadastrar seus dados e manter o sistema atualizado, de forma que seus possíveis clientes encontrem as informações esperadas. Os fornecedores podem ser de microempreendedores a grandes empresas, que fornecem A&B para a cidade do Recife - CNPJ.
+Este projeto visa criar uma forma de auxiliar nesta procura por fornecedores. Estes devem cadastrar seus dados e manter o sistema atualizado, de forma que seus possíveis clientes encontrem as informações esperadas. Os fornecedores podem ser de microempreendedores a grandes empresas, que fornecem A&B para a cidade do Recife.
 
-A princípio farei o cadastro de alguns fornecedores e produtos como exemplo. Com o tempo irei alimentando o banco de dados e também aceitarei contribuições.
+A princípio farei o cadastro de alguns fornecedores e produtos fictícios como exemplo. Com o tempo posso alimentar o banco de dados com valores reais e também aceitar contribuições.
 
 ## Funcionalidades:
 
-- [ ] Cadastrar novos produtos
+- [x] Cadastrar novos produtos
 - [ ] Listar todos os produtos
 - [ ] Atualizar um produto específico
 - [ ] Remover um produto específico do banco de dados
-- [ ] Cadastrar novos fornecedores
+- [x] Cadastrar novos fornecedores
 - [ ] Listar todos os fornecedores
 - [ ] Atualizar dados de um fornecedor específico
 - [ ] Remover cadastro de um fornecedor específico
@@ -86,7 +86,7 @@ $ npm install
 # Execute a aplicação
 $ npm start
 
-# O servidor inciará na porta:8083 - acesse <http://localhost:8083>
+# O servidor iniciará na porta: 8083 - acesse <http://localhost:8083>
 ```
 
 ## Detalhes:
@@ -103,14 +103,14 @@ $ npm start
 
 | Verbo | Endpoint | Descrição |
 | ----- | -------- | --------- |
-| POST | `/fornecedores` | Cadastra um novo fornecedor
-| POST | `/produtos` | Cadastra um novo produto
-| GET | `/fornecedores` | Retorna todos os fornecedores
-| GET | `/produtos` | Retorna todos os produtos
-| PUT | `/fornecedores/:id` | Atualiza um fornecedor específico
-| PUT | `/produtos/:id` | Atualiza um produto específico
-| DELETE | `/fornecedores/:id` | Deleta um fornecedor específico
-| DELETE | `produtos/:id` | Deleta um produto específico
+| POST | `/suppliers` | Cadastra um novo fornecedor
+| POST | `/products` | Cadastra um novo produto
+| GET | `/suppliers` | Retorna todos os fornecedores
+| GET | `/products` | Retorna todos os produtos
+| PUT | `/suppliers/:id` | Atualiza um fornecedor específico
+| PUT | `/products/:id` | Atualiza um produto específico
+| DELETE | `/suppliers/:id` | Deleta um fornecedor específico
+| DELETE | `/products/:id` | Deleta um produto específico
 
 ### Contratos extras:
 
@@ -134,7 +134,8 @@ Mongoose: ```npm install --save mongoose```
 <a>
  <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/69424163?s=400&u=6c4ceb2494ca08ef4a05454277aee432c6b5644f&v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Clarissa Leal</b></sub></a>
+ <sub><b>Clarissa Leal</b></sub>
+</a>
 
 [![Linkedin Badge](https://img.shields.io/badge/-Clarissa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/clarissa-leal/)](https://www.linkedin.com/in/clarissa-leal/) 
 
