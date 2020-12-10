@@ -26,4 +26,29 @@ const allSuppliers = (req, res) => {
   });
 };
 
-module.exports = { addSupplier, allSuppliers };
+const updateSupplier = (req, res) => {
+  const id = req.params.id;
+
+  suppliers.suppliersModel.find({ id }, function (err, supplier) {
+    if (supplier.length > 0) {
+      suppliers.suppliersModel.updateOne(
+        { id },
+        { $set: req.body },
+        function (err) {
+          if (err) {
+            res.status(500).send({ message: err.message });
+          }
+          res
+            .status(200)
+            .send({ message: "Fornecedor atualizado com sucesso!" });
+        }
+      );
+    } else {
+      res
+        .status(200)
+        .send({ message: "Não há fornecedor para ser atualizado com esse id" });
+    }
+  });
+};
+
+module.exports = { addSupplier, allSuppliers, updateSupplier };
