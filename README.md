@@ -87,7 +87,7 @@ Antes de começar é necessário/aconselhável possuir:
 # Acesse o deploy da aplicação pelo Heroku:
 https://api-projeto-livre.herokuapp.com/
 
-# Após acessar o link escolha um GET da lista abaixo (contratos principais :point_down: ) para testar. Vá até a barra de endereço e acrescente o endponint no final. Ex:
+# Após acessar o link escolha um GET da lista abaixo (contratos principais)  para testar. Vá até a barra de endereço e acrescente o endponint no final. Ex:
 https://api-projeto-livre.herokuapp.com/suppliers
 
 # O exemplo acima deve retornar todos os fornecedores cadastrados na API
