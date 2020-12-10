@@ -1,7 +1,7 @@
 const nodemon = require("nodemon");
 const suppliers = require("../models/suppliersSchema");
 
-const createSupplier = (req, res) => {
+const addSupplier = (req, res) => {
   console.log(req.body);
 
   const supplier = new suppliers.suppliersModel(req.body);
@@ -16,4 +16,4 @@ const createSupplier = (req, res) => {
   });
 };
 
-module.exports = { createSupplier };
+module.exports = { addSupplier };
