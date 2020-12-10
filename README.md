@@ -27,18 +27,17 @@
 
 =================
 <!--ts-->
-   * [Sobre](##Sobre)
-   * [Objetivo](##Objetivo)
-   * [Funcionalidades](##Funcionalidades)
-   * [Pré Requisitos](##Pré-requisitos)
-      * [Instruções](###Instruções-para-utilização-da-API)
-   * [Detalhes](##Detalhes)
-      * [Tecnologias](###Tecnologias)
-      * [Contratos](###Contratos-principais)
-      * [Dependências](###Dependências-utilizadas)
-   * [Referências](##Referências)
-   * [Autora](#Autora)
-   * [Licença](#Licença)
+   * [Sobre](#sobre)
+   * [Objetivo](#objetivo)
+   * [Funcionalidades](#funcionalidades)
+   * [Pré Requisitos](#pré-requisitos)
+      * [Requisitos Não Funcionais](#requisitos-não-funcionais)
+      * [Instruções](#instruções-para-utilização-da-api)
+   * [Detalhes](#detalhes)
+      * [Contratos](#contratos-principais)
+   * [Referências](#referências)
+   * [Autora](#autora)
+   * [Licença](#licença)
 <!--te-->
 
 ## Sobre:
@@ -57,47 +56,35 @@ A princípio farei o cadastro de alguns fornecedores e produtos fictícios como 
 
 ## Funcionalidades:
 
-- [x] Cadastrar novos produtos
+- [ ] Cadastrar novos produtos
 - [ ] Listar todos os produtos
 - [ ] Atualizar um produto específico
 - [ ] Remover um produto específico do banco de dados
-- [x] Cadastrar novos fornecedores
+- [ ] Cadastrar novos fornecedores
 - [ ] Listar todos os fornecedores
 - [ ] Atualizar dados de um fornecedor específico
 - [ ] Remover cadastro de um fornecedor específico
   
 ## Pré-requisitos
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com/), [Node.js](https://nodejs.org/pt-br/). 
+Antes de começar é necessário/aconselhável possuir:
+* [Git](https://git-scm.com/);
+* [Node.js](https://nodejs.org/pt-br/);
+* Link do projeto no [Heroku](https://www.heroku.com/): https://api-projeto-livre.herokuapp.com/ ;
+* [Postman](https://www.postman.com/) (Criarei uma collection com todas as requests feitas no postman para auxiliar nos testes)
+
+### Requisitos Não Funcionais
+* Aplicação em Node/Express com requisições REST
+* IDE Visual Studio Code
 
 ### Instruções para utilização da API:
 
 ```bash
-# Clone este repositório
-$ git clone <https://github.com/lealclarissa/projeto-livre>
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd projeto-livre
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação
-$ npm start
-
-# O servidor iniciará na porta: 8083 - acesse <http://localhost:8083>
+# Acesse o deploy da aplicação pelo heroku:
+https://api-projeto-livre.herokuapp.com/
 ```
 
 ## Detalhes:
-
-### Tecnologias: 
-
-* [Node.js](https://nodejs.org/en/)  
-* [Git](https://git-scm.com/) 
-* [MongoDB](https://www.mongodb.com/)  
-* [Postman](https://www.postman.com/)
-* [Heroku](https://www.heroku.com/)
 
 ### Contratos principais:
 
@@ -113,13 +100,6 @@ $ npm start
 | DELETE | `/products/:id` | Deleta um produto específico
 
 ### Contratos extras:
-
-### Dependências utilizadas:
-
-Express: ```npm install --save express```    
-Nodemon: ```npm install --save-dev nodemon```  
-Dotenv-safe: ```npm install --save dotenv-safe```  
-Mongoose: ```npm install --save mongoose``` 
 
 ---
 
