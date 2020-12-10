@@ -63,7 +63,7 @@ A princípio farei o cadastro de alguns fornecedores e produtos fictícios como 
 - [ ] Atualizar um produto específico
 - [ ] Remover um produto específico do banco de dados
 - [x] Cadastrar novos fornecedores
-- [ ] Listar todos os fornecedores
+- [x] Listar todos os fornecedores
 - [ ] Atualizar dados de um fornecedor específico
 - [ ] Remover cadastro de um fornecedor específico
 

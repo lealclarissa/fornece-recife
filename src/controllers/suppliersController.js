@@ -16,4 +16,14 @@ const addSupplier = (req, res) => {
   });
 };
 
-module.exports = { addSupplier };
+const allSuppliers = (req, res) => {
+  console.log(req.url);
+  suppliers.suppliersModel.find(function (error, suppliers) {
+    if (error) {
+      res.status(500).send({ message: error.message, message: "FAIL" });
+    }
+    res.status(200).send(suppliers);
+  });
+};
+
+module.exports = { addSupplier, allSuppliers };
