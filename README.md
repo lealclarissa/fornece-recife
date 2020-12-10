@@ -4,6 +4,7 @@
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/lealclarissa/api-projeto-livre">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lealclarissa/api-projeto-livre">
     <img alt="Github License" src="https://img.shields.io/github/license/lealclarissa/api-projeto-livre?logo=MIT">
+    <a href="http://api-projeto-final.herokuapp.com/"><img src="https://img.shields.io/badge/deploy-heroku.com-blueviolet" alt="Deploy on heroku"></a>
   </a>
 </p>
 
@@ -60,7 +61,7 @@ A princípio farei o cadastro de alguns fornecedores e produtos fictícios como 
 
 - [x] Cadastrar novos produtos
 - [x] Listar todos os produtos
-- [ ] Atualizar um produto específico
+- [x] Atualizar um produto específico
 - [ ] Remover um produto específico do banco de dados
 - [x] Cadastrar novos fornecedores
 - [x] Listar todos os fornecedores
