@@ -1,9 +1,9 @@
 <p align="center">
   <a> 
     <img alt="Node version" src="https://img.shields.io/badge/node-%3E%3D%206.0.0-brightgreen">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/lealclarissa/projeto-livre">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lealclarissa/projeto-livre">
-    <img alt="Github License" src="https://img.shields.io/github/license/lealclarissa/projeto-livre?logo=MIT">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/lealclarissa/api-projeto-livre">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lealclarissa/api-projeto-livre">
+    <img alt="Github License" src="https://img.shields.io/github/license/lealclarissa/api-projeto-livre?logo=MIT">
   </a>
 </p>
 
