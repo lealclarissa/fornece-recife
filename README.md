@@ -56,7 +56,7 @@ A princípio farei o cadastro de alguns fornecedores e produtos fictícios como 
 
 ## Funcionalidades:
 
-- [ ] Cadastrar novos produtos
+- [x] Cadastrar novos produtos
 - [ ] Listar todos os produtos
 - [ ] Atualizar um produto específico
 - [ ] Remover um produto específico do banco de dados

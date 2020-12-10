@@ -1,8 +1,7 @@
 const nodemon = require("nodemon");
-const { productsModel } = require("../models/productsSchema");
 const products = require("../models/productsSchema");
 
-const createProduct = (req, res) => {
+const addProduct = (req, res) => {
   console.log(req.body);
 
   const product = new products.productsModel(req.body);
@@ -17,4 +16,4 @@ const createProduct = (req, res) => {
   });
 };
 
-module.exports = { createProduct };
+module.exports = { addProduct };
