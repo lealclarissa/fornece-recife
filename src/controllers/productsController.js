@@ -16,4 +16,14 @@ const addProduct = (req, res) => {
   });
 };
 
-module.exports = { addProduct };
+const allProducts = (req, res) => {
+  console.log(req.url);
+  products.productsModel.find(function (error, products) {
+    if (error) {
+      res.status(500).send({ message: error.message, message: "FAIL" });
+    }
+    res.status(200).send(products);
+  });
+};
+
+module.exports = { addProduct, allProducts };
