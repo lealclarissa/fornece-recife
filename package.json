@@ -2,6 +2,9 @@
   "name": "api-projeto-livre",
   "version": "1.0.0",
   "description": "contains dependencies installed and used in this project",
+  "engines": {
+    "node": "10.19.0"
+  },
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,7 +22,7 @@
     "recife"
   ],
   "author": "Clarissa Leal",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/lealclarissa/api-projeto-livre/issues"
   },
