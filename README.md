@@ -26,18 +26,20 @@
 </h4>
 
 =================
+
 <!--ts-->
-   * [Sobre](#sobre)
-   * [Objetivo](#objetivo)
-   * [Funcionalidades](#funcionalidades)
-   * [Pré Requisitos](#pré-requisitos)
-      * [Requisitos Não Funcionais](#requisitos-não-funcionais)
-      * [Instruções](#instruções-para-utilização-da-api)
-   * [Detalhes](#detalhes)
-      * [Contratos](#contratos-principais)
-   * [Referências](#referências)
-   * [Autora](#autora)
-   * [Licença](#licença)
+
+- [Sobre](#sobre)
+- [Objetivo](#objetivo)
+- [Funcionalidades](#funcionalidades)
+- [Pré Requisitos](#pré-requisitos)
+  - [Requisitos Não Funcionais](#requisitos-não-funcionais)
+  - [Instruções](#instruções-para-utilização-da-api)
+- [Detalhes](#detalhes)
+  - [Contratos](#contratos-principais)
+- [Referências](#referências)
+- [Autora](#autora)
+- [Licença](#licença)
 <!--te-->
 
 ## Sobre:
@@ -64,40 +66,49 @@ A princípio farei o cadastro de alguns fornecedores e produtos fictícios como 
 - [ ] Listar todos os fornecedores
 - [ ] Atualizar dados de um fornecedor específico
 - [ ] Remover cadastro de um fornecedor específico
-  
+
 ## Pré-requisitos
 
 Antes de começar é necessário/aconselhável possuir:
-* [Git](https://git-scm.com/);
-* [Node.js](https://nodejs.org/pt-br/);
-* Link do projeto no [Heroku](https://www.heroku.com/): https://api-projeto-livre.herokuapp.com/ ;
-* [Postman](https://www.postman.com/) (Criarei uma collection com todas as requests feitas no postman para auxiliar nos testes)
+
+- [Git](https://git-scm.com/);
+- [Node.js](https://nodejs.org/pt-br/);
+- Link do projeto no [Heroku](https://www.heroku.com/): https://api-projeto-livre.herokuapp.com/ ;
+- [Postman](https://www.postman.com/) (Criarei uma collection com todas as requests feitas no postman para auxiliar nos testes)
 
 ### Requisitos Não Funcionais
-* Aplicação em Node/Express com requisições REST
-* IDE Visual Studio Code
+
+- Aplicação em Node/Express com requisições REST
+- IDE Visual Studio Code
 
 ### Instruções para utilização da API:
 
 ```bash
-# Acesse o deploy da aplicação pelo heroku:
+# Acesse o deploy da aplicação pelo Heroku:
 https://api-projeto-livre.herokuapp.com/
+
+# Após acessar o link escolha um GET da lista abaixo (contratos principais :point_down: ) para testar. Vá até a barra de endereço e acrescente o endponint no final. Ex:
+https://api-projeto-livre.herokuapp.com/suppliers
+
+# O exemplo acima deve retornar todos os fornecedores cadastrados na API
+
+# Proceda da mesma maneira com todos os GET. Para testar as outras requisições (POST, PUT, DELETE) eu utilizei o Postman
 ```
 
 ## Detalhes:
 
 ### Contratos principais:
 
-| Verbo | Endpoint | Descrição |
-| ----- | -------- | --------- |
-| POST | `/suppliers` | Cadastra um novo fornecedor
-| POST | `/products` | Cadastra um novo produto
-| GET | `/suppliers` | Retorna todos os fornecedores
-| GET | `/products` | Retorna todos os produtos
-| PUT | `/suppliers/:id` | Atualiza um fornecedor específico
-| PUT | `/products/:id` | Atualiza um produto específico
-| DELETE | `/suppliers/:id` | Deleta um fornecedor específico
-| DELETE | `/products/:id` | Deleta um produto específico
+| Verbo  | Endpoint         | Descrição                         |
+| ------ | ---------------- | --------------------------------- |
+| POST   | `/suppliers`     | Cadastra um novo fornecedor       |
+| POST   | `/products`      | Cadastra um novo produto          |
+| GET    | `/suppliers`     | Retorna todos os fornecedores     |
+| GET    | `/products`      | Retorna todos os produtos         |
+| PUT    | `/suppliers/:id` | Atualiza um fornecedor específico |
+| PUT    | `/products/:id`  | Atualiza um produto específico    |
+| DELETE | `/suppliers/:id` | Deleta um fornecedor específico   |
+| DELETE | `/products/:id`  | Deleta um produto específico      |
 
 ### Contratos extras:
 
@@ -105,7 +116,7 @@ https://api-projeto-livre.herokuapp.com/
 
 ## Referências:
 
-* Matéria sobre o aplicativo Menor Preço: https://www.folhape.com.br/economia/aplicativo-mostra-onde-achar-produto-com-o-menor-preco-em-pernambuco/82021/ ;  
+- Matéria sobre o aplicativo Menor Preço: https://www.folhape.com.br/economia/aplicativo-mostra-onde-achar-produto-com-o-menor-preco-em-pernambuco/82021/ ;
 
 ---
 
@@ -117,7 +128,7 @@ https://api-projeto-livre.herokuapp.com/
  <sub><b>Clarissa Leal</b></sub>
 </a>
 
-[![Linkedin Badge](https://img.shields.io/badge/-Clarissa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/clarissa-leal/)](https://www.linkedin.com/in/clarissa-leal/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Clarissa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/clarissa-leal/)](https://www.linkedin.com/in/clarissa-leal/)
 
 ---
 
