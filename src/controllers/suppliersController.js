@@ -51,4 +51,31 @@ const updateSupplier = (req, res) => {
   });
 };
 
-module.exports = { addSupplier, allSuppliers, updateSupplier };
+const removeSupplier = (req, res) => {
+  const id = req.params.id;
+
+  suppliers.suppliersModel.find({ id }, function (err, supplier) {
+    if (supplier.length > 0) {
+      suppliers.suppliersModel.deleteOne({ id }, function (err) {
+        if (err) {
+          res.status(500).send({
+            message: err.message,
+            status: "FAIL",
+          });
+        }
+        res.status(200).send({
+          message:
+            "Cadastro de fornecedor removido com sucesso com banco de dados!",
+          status: "SUCCESS",
+        });
+      });
+    } else {
+      res.status(200).send({
+        message: "Não há cadastro deste fornecedor para ser excluído",
+        status: "EMPTY",
+      });
+    }
+  });
+};
+
+module.exports = { addSupplier, allSuppliers, updateSupplier, removeSupplier };
