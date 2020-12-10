@@ -31,12 +31,16 @@ const updateProduct = (req, res) => {
 
   products.productsModel.find({ id }, function (err, product) {
     if (product.length > 0) {
-      products.productsModel.updateOne({ id }, { $set: req.body }, function (err) {
-        if (err) {
-          res.status(500).send({ message: err.message });
+      products.productsModel.updateOne(
+        { id },
+        { $set: req.body },
+        function (err) {
+          if (err) {
+            res.status(500).send({ message: err.message });
+          }
+          res.status(200).send({ message: "Produto atualizado com sucesso!" });
         }
-        res.status(200).send({ message: "Produto atualizado com sucesso!" });
-      });
+      );
     } else {
       res
         .status(200)
@@ -45,4 +49,30 @@ const updateProduct = (req, res) => {
   });
 };
 
-module.exports = { addProduct, allProducts, updateProduct };
+const removeProduct = (req, res) => {
+  const id = req.params.id;
+
+  products.productsModel.find({ id }, function (err, product) {
+    if (product.length > 0) {
+      products.productsModel.deleteOne({ id }, function (err) {
+        if (err) {
+          res.status(500).send({
+            message: err.message,
+            status: "FAIL",
+          });
+        }
+        res.status(200).send({
+          message: "Produto removido com sucesso com banco de dados!",
+          status: "SUCCESS",
+        });
+      });
+    } else {
+      res.status(200).send({
+        message: "Não há produto para ser removido",
+        status: "EMPTY",
+      });
+    }
+  });
+};
+
+module.exports = { addProduct, allProducts, updateProduct, removeProduct };
