@@ -1,4 +1,3 @@
-const nodemon = require("nodemon");
 const products = require("../models/productsSchema");
 
 const addProduct = (req, res) => {

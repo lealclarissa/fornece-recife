@@ -1,4 +1,3 @@
-const nodemon = require("nodemon");
 const suppliers = require("../models/suppliersSchema");
 
 const addSupplier = (req, res) => {
