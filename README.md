@@ -29,7 +29,7 @@
 - [Sobre](#sobre)
 - [Tecnologias](#tecnologias)
 - [Funcionalidades](#funcionalidades)
-  - [Próximas features](##próximas-features)
+  - [Próximas features](#próximas-features)
 - [Como usar](#como-deseja-usar-este-projeto)
 - [Contribuição](#contribuição)
 - [Referências](#referências)
@@ -97,13 +97,13 @@ Idealmente os fornecedores fariam um *login* e seriam responsáveis por manter o
 
 ## Como deseja usar este projeto
 
-:eyes: Para visualizar o funcionamento veja o [guia para ver funcionando](https://github.com/lealclarissa/api-projeto-livre/blob/main/docs/Guide_see_it_working.md) 
+:eyes: Para visualizar o funcionamento acesse: [docs>Guide_see_it_working.md](https://github.com/lealclarissa/api-projeto-livre/blob/main/docs/Guide_see_it_working.md) 
 
-:mag: Para baixar o projeto para estudar, modificar, testar todas as requisições localmente, veja o [Guia para rodar localmente](https://github.com/lealclarissa/api-projeto-livre/blob/main/docs/Guide-run_it_localy.md)
+:mag: Para baixar o projeto para estudar, modificar, testar todas as requisições localmente, acesse: [docs>Guide_run_it_localy.md](https://github.com/lealclarissa/api-projeto-livre/blob/main/docs/Guide-run_it_localy.md)
 
 ## Contribuição
 
-Gostou da proposta do projeto e tem interesse em contribuir? Acesse o [CONTRIBUTING.md](https://github.com/lealclarissa/api-projeto-livre/blob/main/docs/CONTRIBUTING.md) para ver como.
+Gostou da proposta do projeto e tem interesse em contribuir? Acesse: [docs>CONTRIBUTING.md](https://github.com/lealclarissa/api-projeto-livre/blob/main/docs/CONTRIBUTING.md) para ver como.
 
 ---
 

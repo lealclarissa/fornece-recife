@@ -23,9 +23,9 @@
               }
             },
             "url": {
-              "raw": "https://api-projeto-livre.herokuapp.com/products",
+              "raw": "https://localhost:8080/products",
               "protocol": "https",
-              "host": ["api-projeto-livre", "herokuapp", "com"],
+              "host": ["localhost", "8080"],
               "path": ["products"]
             },
             "description": "Cadastra novo produto"
@@ -38,9 +38,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "https://api-projeto-livre.herokuapp.com/products",
+              "raw": "https://localhost:8080/products",
               "protocol": "https",
-              "host": ["api-projeto-livre", "herokuapp", "com"],
+              "host": ["localhost", "8080"],
               "path": ["products"]
             },
             "description": "Lista todos os produtos*"
@@ -62,9 +62,9 @@
               }
             },
             "url": {
-              "raw": "https://api-projeto-livre.herokuapp.com/products/:id",
+              "raw": "https://localhost:8080/products/:id",
               "protocol": "https",
-              "host": ["api-projeto-livre", "herokuapp", "com"],
+              "host": ["localhost", "8080"],
               "path": ["products", "10"]
             },
             "description": "Atualiza um produto específico do cadastro geral, por ID"
@@ -77,9 +77,9 @@
             "method": "DELETE",
             "header": [],
             "url": {
-              "raw": "https://api-projeto-livre.herokuapp.com/products/:id",
+              "raw": "https://localhost:8080/products/:id",
               "protocol": "https",
-              "host": ["api-projeto-livre", "herokuapp", "com"],
+              "host": ["localhost", "8080"],
               "path": ["products", "10"]
             },
             "description": "Remove um produto específico do cadastro geral, por ID"
@@ -108,9 +108,9 @@
               }
             },
             "url": {
-              "raw": "https://api-projeto-livre.herokuapp.com/suppliers",
+              "raw": "https://localhost:8080/suppliers",
               "protocol": "https",
-              "host": ["api-projeto-livre", "herokuapp", "com"],
+              "host": ["localhost", "8080"],
               "path": ["suppliers"]
             },
             "description": "Cadastra novo Fornecedor"
@@ -123,9 +123,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "https://api-projeto-livre.herokuapp.com/suppliers",
+              "raw": "https://localhost:8080/suppliers",
               "protocol": "https",
-              "host": ["api-projeto-livre", "herokuapp", "com"],
+              "host": ["localhost", "8080"],
               "path": ["suppliers"]
             },
             "description": "Lista todos os fornecedores"
@@ -147,9 +147,9 @@
               }
             },
             "url": {
-              "raw": "https://api-projeto-livre.herokuapp.com/suppliers/:id",
+              "raw": "https://localhost:8080/suppliers/:id",
               "protocol": "https",
-              "host": ["api-projeto-livre", "herokuapp", "com"],
+              "host": ["localhost", "8080"],
               "path": ["suppliers", "10"]
             },
             "description": "Atualiza um fornecedor específico do cadastro geral, por ID"
@@ -162,9 +162,9 @@
             "method": "DELETE",
             "header": [],
             "url": {
-              "raw": "https://api-projeto-livre.herokuapp.com/suppliers/:id",
+              "raw": "https://localhost:8080/suppliers/:id",
               "protocol": "https",
-              "host": ["api-projeto-livre", "herokuapp", "com"],
+              "host": ["localhost", "8080"],
               "path": ["suppliers", "10"]
             },
             "description": "Remove um fornecedor específico do cadastro geral, por ID"
@@ -181,9 +181,9 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://api-projeto-livre.herokuapp.com/",
+          "raw": "https://localhost:8080/",
           "protocol": "https",
-          "host": ["api-projeto-livre", "herokuapp", "com"],
+          "host": ["localhost", "8080"],
           "path": [""]
         },
         "description": "Exibe informações básicas sobre o projeto"
