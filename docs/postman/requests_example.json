@@ -1,0 +1,194 @@
+{
+  "info": {
+    "name": "Projeto-livre",
+    "description": "\"API - Fornecedores de Alimentos e Bebidas - Recife\"\n\nProjeto de conclusão de curso {reprograma} da turma on7 Backend Minas",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "PRODUCTS",
+      "item": [
+        {
+          "name": "Create - Products",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\": 10,\n    \"name\": \"produto10\",\n    \"category\": [\n        \"fruit\"\n    ],\n    \"price\": \"10\",\n    \"payment\": [\n        \"cash\",\n        \"debit card\",\n        \"credit card\",\n        \"pix\",\n        \"bank transfer\"\n    ],\n    \"available\": true,\n    \"quantity\": \"2\",\n    \"supplier\": \"supplier test 4\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://api-projeto-livre.herokuapp.com/products",
+              "protocol": "https",
+              "host": ["api-projeto-livre", "herokuapp", "com"],
+              "path": ["products"]
+            },
+            "description": "Cadastra novo produto"
+          },
+          "response": []
+        },
+        {
+          "name": "Read - All Products",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://api-projeto-livre.herokuapp.com/products",
+              "protocol": "https",
+              "host": ["api-projeto-livre", "herokuapp", "com"],
+              "path": ["products"]
+            },
+            "description": "Lista todos os produtos*"
+          },
+          "response": []
+        },
+        {
+          "name": "Update - Product",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\": 10,\n    \"name\": \"produto10\",\n    \"category\": [\n        \"fruit\"\n    ],\n    \"price\": \"10\",\n    \"payment\": [\n        \"cash\",\n        \"debit card\",\n        \"credit card\",\n        \"pix\",\n        \"bank transfer\"\n    ],\n    \"available\": true,\n    \"quantity\": \"2\",\n    \"supplier\": \"supplier test 4\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://api-projeto-livre.herokuapp.com/products/:id",
+              "protocol": "https",
+              "host": ["api-projeto-livre", "herokuapp", "com"],
+              "path": ["products", "10"]
+            },
+            "description": "Atualiza um produto específico do cadastro geral, por ID"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE  - Product",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "https://api-projeto-livre.herokuapp.com/products/:id",
+              "protocol": "https",
+              "host": ["api-projeto-livre", "herokuapp", "com"],
+              "path": ["products", "10"]
+            },
+            "description": "Remove um produto específico do cadastro geral, por ID"
+          },
+          "response": []
+        }
+      ],
+      "description": "Todas as requisições relativas aos produtos",
+      "protocolProfileBehavior": {}
+    },
+    {
+      "name": "SUPPLIERS",
+      "item": [
+        {
+          "name": "Create - Suppliers",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\": 10,\n    \"name\": \"supplier test 10\",\n    \"address\": {\n        \"number\": \"10\",\n        \"nameOfStreet\": \"Test10 Street\",\n        \"neighborhood\": \"Area10\",\n        \"zipCode\": \"10101-010\"\n    },\n    \"contacts\": [\n        \"3448-3410\",\n        \"99810-9910\",\n        \"@10testinsta\"\n    ],\n    \"category\": [\n        \"food\",\n        \"fruit\",\n        \"juice\",\n        \"jellies\",\n        \"fresh fruit\",\n        \"pies\",\n        \"organic\"\n    ],\n    \"delivery\": [\n        \"in loco\",\n        \"delivery\"\n    ],\n    \"payment\": [\n        \"cash\",\n        \"credit card\",\n        \"debit card\"\n    ],\n    \"minumum\": false\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://api-projeto-livre.herokuapp.com/suppliers",
+              "protocol": "https",
+              "host": ["api-projeto-livre", "herokuapp", "com"],
+              "path": ["suppliers"]
+            },
+            "description": "Cadastra novo Fornecedor"
+          },
+          "response": []
+        },
+        {
+          "name": "Read - All Suppliers",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://api-projeto-livre.herokuapp.com/suppliers",
+              "protocol": "https",
+              "host": ["api-projeto-livre", "herokuapp", "com"],
+              "path": ["suppliers"]
+            },
+            "description": "Lista todos os fornecedores"
+          },
+          "response": []
+        },
+        {
+          "name": "Update - Suppliers",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\": 10,\n    \"name\": \"supplier test 10\",\n    \"address\": {\n        \"number\": \"10\",\n        \"nameOfStreet\": \"Test10 Street\",\n        \"neighborhood\": \"10Area\",\n        \"zipCode\": \"10101-010\"\n    },\n    \"contacts\": [\n        \"3448-3410\",\n        \"99810-9910\",\n        \"@10testinsta\"\n    ],\n    \"category\": [\n        \"fruit\",\n        \"juice\",\n        \"jellies\",\n        \"fresh fruit\",\n        \"pies\",\n        \"organic\"\n    ],\n    \"delivery\": [\n        \"in loco\",\n        \"delivery\",\n        \"take out\"\n    ],\n    \"payment\": [\n        \"cash\",\n        \"credit card\",\n        \"debit card\"\n    ],\n    \"minumum\": true\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://api-projeto-livre.herokuapp.com/suppliers/:id",
+              "protocol": "https",
+              "host": ["api-projeto-livre", "herokuapp", "com"],
+              "path": ["suppliers", "10"]
+            },
+            "description": "Atualiza um fornecedor específico do cadastro geral, por ID"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE - Suppliers",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "https://api-projeto-livre.herokuapp.com/suppliers/:id",
+              "protocol": "https",
+              "host": ["api-projeto-livre", "herokuapp", "com"],
+              "path": ["suppliers", "10"]
+            },
+            "description": "Remove um fornecedor específico do cadastro geral, por ID"
+          },
+          "response": []
+        }
+      ],
+      "description": "Todas as requisições relativas aos fornecedores",
+      "protocolProfileBehavior": {}
+    },
+    {
+      "name": "GET - INDEX",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api-projeto-livre.herokuapp.com/",
+          "protocol": "https",
+          "host": ["api-projeto-livre", "herokuapp", "com"],
+          "path": [""]
+        },
+        "description": "Exibe informações básicas sobre o projeto"
+      },
+      "response": []
+    }
+  ] 
+}
