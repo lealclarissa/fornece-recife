@@ -29,8 +29,8 @@
 - [Sobre](#sobre)
 - [Tecnologias](#tecnologias)
 - [Funcionalidades](#funcionalidades)
-  - [Próximas features](#próximas-features)
-- [Como usar](#como-deseja-usar-este-projeto?)
+  - [Próximas features](##próximas-features)
+- [Como usar](#como-deseja-usar-este-projeto)
 - [Contribuição](#contribuição)
 - [Referências](#referências)
 - [Agradecimentos](#agradecimentos)
@@ -75,7 +75,7 @@ Idealmente os fornecedores fariam um *login* e seriam responsáveis por manter o
 - [x] Atualizar dados de um fornecedor específico
 - [x] Remover cadastro de um fornecedor específico
 
-### Próximas *features* :
+### Próximas features:
 
 - [ ] Para os fornecedores:  
   - [ ] Visualizar fornecedores por bairro
@@ -95,15 +95,15 @@ Idealmente os fornecedores fariam um *login* e seriam responsáveis por manter o
   - [ ] Gerar *token* de autenticação
   - [ ] Autenticar todas as rotas
 
-## Como deseja usar este projeto?
+## Como deseja usar este projeto
 
-:eyes: Para visualizar o funcionamento veja o [guia para ver funcionando](Guide-see-it-working.md) 
+:eyes: Para visualizar o funcionamento veja o [guia para ver funcionando](https://github.com/lealclarissa/api-projeto-livre/blob/main/docs/Guide_see_it_working.md) 
 
-:mag: Para baixar o projeto para estudar, modificar, testar todas as requisições localmente, veja o [Guia para rodar localmente](Guide-run-it-localy.md)
+:mag: Para baixar o projeto para estudar, modificar, testar todas as requisições localmente, veja o [Guia para rodar localmente](https://github.com/lealclarissa/api-projeto-livre/blob/main/docs/Guide-run_it_localy.md)
 
 ## Contribuição
 
-Gostou da proposta do projeto e tem interesse em contribuir? Acesse o [CONTRIBUTING.md](CONTRIBUTING.md) para ver como.
+Gostou da proposta do projeto e tem interesse em contribuir? Acesse o [CONTRIBUTING.md](https://github.com/lealclarissa/api-projeto-livre/blob/main/docs/CONTRIBUTING.md) para ver como.
 
 ---
 

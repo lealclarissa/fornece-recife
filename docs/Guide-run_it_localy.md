@@ -37,7 +37,7 @@ Abra o projeto na sua IDE (no meu caso o VSCode):
 
 Pronto, agora você tem o código e poderá fazer uso dele! 
 
-> Para facilitar eu salvei exemplos de todas as requisições que fiz até o momento e testei no postman. Deixei disponível em: `<./postman/requests_example.json>`. Você poderá utilizar os exemplos ou criar os seus próprios. Os schemas das duas entidades estão na pasta: `<..src/models/>`
+> Para facilitar eu salvei exemplos de todas as requisições que fiz até o momento e testei no postman. Deixei disponível em: [docs>postman>requests_example.json](https://github.com/lealclarissa/api-projeto-livre/blob/main/docs/postman/requests_example.json). Você poderá utilizar os exemplos ou criar os seus próprios. Os schemas das duas entidades estão na pasta [src>models](https://github.com/lealclarissa/api-projeto-livre/tree/main/src/models)
 
 Após suas contribuições no projeto, caso queira, pode salvar e subir pro seu repositório remoto:  
 ```$ git add . ``` Isso adiciona todas as modificações num "pacotinho".
@@ -69,7 +69,7 @@ Para subir o projeto no seu GitHub, basta executar o comando:
 ## Observações:
 
 * À medida em que eu for criando as novas features atualizarei este arquivo.
-* No README.md eu fiz uma lista nas próximas features a ser implementadas, o que você acha de testar? 
+* No [README.md](https://github.com/lealclarissa/api-projeto-livre/blob/main/README.md) eu fiz uma lista nas próximas features a ser implementadas, o que você acha de testar? 
 * Fique à vontade para criar!
 
 ## Links úteis:
