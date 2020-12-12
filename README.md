@@ -8,24 +8,18 @@
   </a>
 </p>
 
-<!-- <h1 align="center">
-  <img alt="FAEB Recife" title="#API - Fornecedores de Alimentos e Bebidas em Recife" src="./assets/banner.png" />
-</h1> -->
-
 <h1 align="center">
-    <br>
-    <p align="center">API - Fornece Recife<p>
+  <img alt="Gif - API logo" title="#API - Fornece Recife" src="./assets/fornece.gif" />
 </h1>
 
 <p align="center">Projeto de conclusão do Bootcamp Back-End <a href="https://reprograma.com.br/">{reprograma}</a> em parceria com o <a href="https://www.portodigital.org/capital-humano/iniciativas-para-a-diversidade/mulheres-em-inovacao-negocios-e-artes-minas">MINAs</a> do Porto Digital de Recife</p>
 <h4 align="center"> 
-	🚧  Em Desenvolvimento  🚧
+	:seedling:  Em Desenvolvimento  :seedling:
 </h4>
 
 =================
 
 <!--ts-->
-
 - [Sobre](#sobre)
 - [Tecnologias](#tecnologias)
 - [Funcionalidades](#funcionalidades)
@@ -42,15 +36,15 @@
 
 ## Sobre:
 
-Esta API é um buscador de fornecedores de alimentos e bebidas(A&B) da cidade do Recife-PE. A ideia surgiu a partir de uma notável dificuldade de empreendedores e empresas que estão iniciando no setor de A&B da cidade em encontrar insumos para ser utilizados em seus empreendimentos.
+Esta API é um buscador de fornecedores de alimentos e bebidas(A&B) da cidade do Recife-PE. A ideia surgiu a partir de uma notável dificuldade de empreendedores e empresas que estão iniciando no setor em encontrar insumos para ser utilizados em seus empreendimentos.
 
 Inspirei-me em iniciativas como [Menor Preço](https://play.google.com/store/apps/details?id=br.gov.pr.celepar.sefa.mp&hl=pt_BR) (aplicativo que busca o menor preço de acordo com a localização configurada); 
 
-Esta API se destina a facilitar as buscas fazendo uso de outros filtros, tendo em vista que muitas vezes existe um valor mínimo de compra, ou a distância pode ser um fator determinante para o fechamento de uma compra.
+Esta API se destina a facilitar as buscas fazendo uso de outros filtros, tendo em vista que muitas vezes existe um valor mínimo de compra, ou a forma de pagamento pode ser um fator determinante para o fechamento de uma compra.
 
 A princípio fiz um o cadastro de alguns fornecedores e produtos fictícios como exemplo.
 
-Idealmente os fornecedores fariam um *login* e seriam responsáveis por manter o sistema atualizado quando aos seus dados e os produtos que tiverem cadastrado no sistema. Esses fornecedores podendo ser de microempreendedores a empresas de grande porte.
+Idealmente os fornecedores fariam um *login* e seriam responsáveis por manter o sistema atualizado quanto aos seus dados e os produtos que tiverem cadastrado no sistema. Esses fornecedores podendo ser de microempreendedores a empresas de grande porte.
 
 ## Tecnologias:
 
@@ -59,8 +53,8 @@ Idealmente os fornecedores fariam um *login* e seriam responsáveis por manter o
 - Desenvolver o back-end em Javascript: [Node.js](https://nodejs.org/pt-br/);
 - Framework JavaScript: [Express](https://expressjs.com/pt-br/);
 - Gerenciador de pacotes: [Npm](https://www.npmjs.com/);
-- Testar requisições localmente: [Postman](https://www.postman.com/);
-- Visualizar banco de dados localmente: [Robo 3T](https://robomongo.org/);
+- Testar requisições: [Postman](https://www.postman.com/);
+- Visualizar banco de dados: [Robo 3T](https://robomongo.org/);
 - Hospedagem do banco de dados na nuvem: [Mongo Atlas](https://www.mongodb.com/cloud/atlas);
 - Deploy: [Heroku](https://www.heroku.com/)
 
@@ -99,22 +93,21 @@ Idealmente os fornecedores fariam um *login* e seriam responsáveis por manter o
 
 :eyes: Para visualizar o funcionamento acesse: [docs>Guide_see_it_working.md](https://github.com/lealclarissa/api-projeto-livre/blob/main/docs/Guide_see_it_working.md) 
 
-:mag: Para baixar o projeto para estudar, modificar, testar todas as requisições localmente, acesse: [docs>Guide_run_it_localy.md](https://github.com/lealclarissa/api-projeto-livre/blob/main/docs/Guide-run_it_localy.md)
+:mag: Para baixar o projeto para estudar, modificar, testar todas as requisições localmente, acesse: [docs>Guide_run_it_localy.md](https://github.com/lealclarissa/api-projeto-livre/blob/main/docs/Guide_run_it_localy.md)
 
 ## Contribuição
 
 Gostou da proposta do projeto e tem interesse em contribuir? Acesse: [docs>CONTRIBUTING.md](https://github.com/lealclarissa/api-projeto-livre/blob/main/docs/CONTRIBUTING.md) para ver como.
 
----
-
 ## Referências:
 
 - Matéria sobre o aplicativo Menor Preço: https://www.folhape.com.br/economia/aplicativo-mostra-onde-achar-produto-com-o-menor-preco-em-pernambuco/82021/ ; 
-- Informações para licenças: http://escolhaumalicenca.com.br/licencas/mit/# ;
+- Informações para licenças: http://escolhaumalicenca.com.br/licencas/ ;
 - Lista com emojis: https://gist.github.com/rxaviers/7360908 ;
 - Conversor Markdown para HTML: https://markdowntohtml.com/ ;
-
----
+- Icone lupa: https://www.flaticon.com/svg/static/icons/svg/482/482631.svg ;
+- Imagem fornecedores: https://storyset.com/illustration/supermarket-workers/amico ;
+- Site para edição de imagem: https://www.canva.com/
 
 ## Agradecimentos:  
 
@@ -122,6 +115,8 @@ Dedico este projeto a todas as mulheres inspiradoras que caminharam comigo ao lo
 :two_women_holding_hands:
 
 Por fim, a Edjane e Kainã que me inspiram e apoiam em busca de meus sonhos.
+
+---
 
 ## Autora
 
