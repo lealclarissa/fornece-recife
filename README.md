@@ -1,10 +1,10 @@
 <p align="center">
   <a> 
-    <img alt="Node version" src="https://img.shields.io/badge/node-%3E%3D%206.0.0-brightgreen">
+    <a href="http://api-projeto-final.herokuapp.com/"><img src="https://img.shields.io/badge/deploy-heroku.com-blueviolet" alt="Deploy on heroku"></a>
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/lealclarissa/api-projeto-livre">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lealclarissa/api-projeto-livre">
     <img alt="Github License" src="https://img.shields.io/github/license/lealclarissa/api-projeto-livre?logo=MIT">
-    <a href="http://api-projeto-final.herokuapp.com/"><img src="https://img.shields.io/badge/deploy-heroku.com-blueviolet" alt="Deploy on heroku"></a>
+   
   </a>
 </p>
 
@@ -14,16 +14,12 @@
 
 <h1 align="center">
     <br>
-    <p align="center">API - Fornecedores de Alimentos e Bebidas em Recife<p>
+    <p align="center">API - Fornece Recife<p>
 </h1>
 
-<h2 align="center">
-    <a href="https://nodejs.org/pt-br/">🔗 Node</a>
-</h2>
-<p align="center"> Projeto backend</p>
-
+<p align="center">Projeto de conclusão do Bootcamp Back-End <a href="https://reprograma.com.br/">{reprograma}</a> em parceria com o <a href="https://www.portodigital.org/capital-humano/iniciativas-para-a-diversidade/mulheres-em-inovacao-negocios-e-artes-minas">MINAs</a> do Porto Digital de Recife</p>
 <h4 align="center"> 
-	🚧  Em construção  🚧
+	🚧  Em Desenvolvimento  🚧
 </h4>
 
 =================
@@ -31,31 +27,42 @@
 <!--ts-->
 
 - [Sobre](#sobre)
-- [Objetivo](#objetivo)
+- [Tecnologias](#tecnologias)
 - [Funcionalidades](#funcionalidades)
-- [Pré Requisitos](#pré-requisitos)
-  - [Requisitos Não Funcionais](#requisitos-não-funcionais)
-  - [Instruções](#instruções-para-utilização-da-api)
-- [Detalhes](#detalhes)
-  - [Contratos](#contratos-principais)
+  - [Próximas features](#próximas-features)
+- [Como usar](#como-deseja-usar-este-projeto?)
+- [Contribuição](#contribuição)
 - [Referências](#referências)
+- [Agradecimentos](#agradecimentos)
 - [Autora](#autora)
 - [Licença](#licença)
 <!--te-->
 
+=================
+
 ## Sobre:
 
-Projeto final do bootcamp {reprograma} em parceria com o MINAs do Porto Digital do Recife.
+Esta API é um buscador de fornecedores de alimentos e bebidas(A&B) da cidade do Recife-PE. A ideia surgiu a partir de uma notável dificuldade de empreendedores e empresas que estão iniciando no setor de A&B da cidade em encontrar insumos para ser utilizados em seus empreendimentos.
 
-Trata-se de uma API de Fornecedores de Alimentos e Bebidas(A&B) da cidade do Recife. A ideia surgiu a partir de uma notável dificuldade de empreendedores e empresas que estão iniciando no setor de A&B da cidade em questão de encontrar insumos para ser utilizados em seus empreendimentos.
+Inspirei-me em iniciativas como [Menor Preço](https://play.google.com/store/apps/details?id=br.gov.pr.celepar.sefa.mp&hl=pt_BR) (aplicativo que busca o menor preço de acordo com a localização configurada); 
 
-Inspirei-me em iniciativas como [Menor Preço](https://play.google.com/store/apps/details?id=br.gov.pr.celepar.sefa.mp&hl=pt_BR) (aplicativo que busca o menor preço de acordo com a localização configurada); porém, diferente deste aplicativo, esta API se destina a facilitar as buscas por fornecedores ou produto usando outros filtros. Tendo em vista que muitas vezes existe um valor mínimo de compra, ou a distância pode ser um fator determinante para o fechamento de uma compra.
+Esta API se destina a facilitar as buscas fazendo uso de outros filtros, tendo em vista que muitas vezes existe um valor mínimo de compra, ou a distância pode ser um fator determinante para o fechamento de uma compra.
 
-## Objetivo:
+A princípio fiz um o cadastro de alguns fornecedores e produtos fictícios como exemplo.
 
-Este projeto visa criar uma forma de auxiliar nesta procura por fornecedores. Estes devem cadastrar seus dados e manter o sistema atualizado, de forma que seus possíveis clientes encontrem as informações esperadas. Os fornecedores podem ser de microempreendedores a grandes empresas, que fornecem A&B para a cidade do Recife.
+Idealmente os fornecedores fariam um *login* e seriam responsáveis por manter o sistema atualizado quando aos seus dados e os produtos que tiverem cadastrado no sistema. Esses fornecedores podendo ser de microempreendedores a empresas de grande porte.
 
-A princípio farei o cadastro de alguns fornecedores e produtos fictícios como exemplo. Com o tempo posso alimentar o banco de dados com valores reais e também aceitar contribuições.
+## Tecnologias:
+
+- Controle de versões: [Git](https://git-scm.com/);
+- Editor de código - IDE: [Visual Studio Code](https://code.visualstudio.com/);
+- Desenvolver o back-end em Javascript: [Node.js](https://nodejs.org/pt-br/);
+- Framework JavaScript: [Express](https://expressjs.com/pt-br/);
+- Gerenciador de pacotes: [Npm](https://www.npmjs.com/);
+- Testar requisições localmente: [Postman](https://www.postman.com/);
+- Visualizar banco de dados localmente: [Robo 3T](https://robomongo.org/);
+- Hospedagem do banco de dados na nuvem: [Mongo Atlas](https://www.mongodb.com/cloud/atlas);
+- Deploy: [Heroku](https://www.heroku.com/)
 
 ## Funcionalidades:
 
@@ -68,58 +75,53 @@ A princípio farei o cadastro de alguns fornecedores e produtos fictícios como 
 - [x] Atualizar dados de um fornecedor específico
 - [x] Remover cadastro de um fornecedor específico
 
-## Pré-requisitos
+### Próximas *features* :
 
-Antes de começar é necessário/aconselhável possuir:
+- [ ] Para os fornecedores:  
+  - [ ] Visualizar fornecedores por bairro
+  - [ ] Visualizar fornecedores por especialidade(categoria)
+  - [ ] Visualizar fornecedores por tipo de entrega;
+  - [ ] Visualizar fornecedores por forma de pagamento
+  - [ ] Visualizar fornecedores pela existência ou não de valor mínimo de compra
+  - [ ] Visualizar produtos por fornecedor
+- [ ] Para os produtos:  
+  - [ ] Filtrar produtos por nome
+  - [ ] Filtrar produtos por especialidade(categoria)
+  - [ ] Filtrar produtos por forma de pagamento
+  - [ ] Filtrar produtos por disponibilidade
+  - [ ] Visualizar fornecedores que vendem determinado produto
+- [ ] Autenticação:  
+  - [ ] Criação de *login*
+  - [ ] Gerar *token* de autenticação
+  - [ ] Autenticar todas as rotas
 
-- [Git](https://git-scm.com/);
-- [Node.js](https://nodejs.org/pt-br/);
-- Link do projeto no [Heroku](https://www.heroku.com/): https://api-projeto-livre.herokuapp.com/ ;
-- [Postman](https://www.postman.com/) (Criarei uma collection com todas as requests feitas no postman para auxiliar nos testes)
+## Como deseja usar este projeto?
 
-### Requisitos Não Funcionais
+:eyes: Para visualizar o funcionamento veja o [guia para ver funcionando](Guide-see-it-working.md) 
 
-- Aplicação em Node/Express com requisições REST
-- IDE Visual Studio Code
+:mag: Para baixar o projeto para estudar, modificar, testar todas as requisições localmente, veja o [Guia para rodar localmente](Guide-run-it-localy.md)
 
-### Instruções para utilização da API:
+## Contribuição
 
-```bash
-# Acesse o deploy da aplicação pelo Heroku:
-https://api-projeto-livre.herokuapp.com/
-
-# Após acessar o link escolha um GET da lista abaixo (contratos principais)  para testar. Vá até a barra de endereço e acrescente o endponint no final. Ex:
-https://api-projeto-livre.herokuapp.com/suppliers
-
-# O exemplo acima deve retornar todos os fornecedores cadastrados na API
-
-# Proceda da mesma maneira com todos os GET. Para testar as outras requisições (POST, PUT, DELETE) eu utilizei o Postman
-```
-
-## Detalhes:
-
-### Contratos principais:
-
-| Verbo  | Endpoint         | Descrição                         |
-| ------ | ---------------- | --------------------------------- |
-| POST   | `/suppliers`     | Cadastra um novo fornecedor       |
-| POST   | `/products`      | Cadastra um novo produto          |
-| GET    | `/suppliers`     | Retorna todos os fornecedores     |
-| GET    | `/products`      | Retorna todos os produtos         |
-| PUT    | `/suppliers/:id` | Atualiza um fornecedor específico |
-| PUT    | `/products/:id`  | Atualiza um produto específico    |
-| DELETE | `/suppliers/:id` | Deleta um fornecedor específico   |
-| DELETE | `/products/:id`  | Deleta um produto específico      |
-
-### Contratos extras:
+Gostou da proposta do projeto e tem interesse em contribuir? Acesse o [CONTRIBUTING.md](CONTRIBUTING.md) para ver como.
 
 ---
 
 ## Referências:
 
-- Matéria sobre o aplicativo Menor Preço: https://www.folhape.com.br/economia/aplicativo-mostra-onde-achar-produto-com-o-menor-preco-em-pernambuco/82021/ ;
+- Matéria sobre o aplicativo Menor Preço: https://www.folhape.com.br/economia/aplicativo-mostra-onde-achar-produto-com-o-menor-preco-em-pernambuco/82021/ ; 
+- Informações para licenças: http://escolhaumalicenca.com.br/licencas/mit/# ;
+- Lista com emojis: https://gist.github.com/rxaviers/7360908 ;
+- Conversor Markdown para HTML: https://markdowntohtml.com/ ;
 
 ---
+
+## Agradecimentos:  
+
+Dedico este projeto a todas as mulheres inspiradoras que caminharam comigo ao longo dessa jornada: das professoras incríveis às companheiras de turma que me apoiaram a seguir adiante. Juntes somos mais fortes!
+:two_women_holding_hands:
+
+Por fim, a Edjane e Kainã que me inspiram e apoiam em busca de meus sonhos.
 
 ## Autora
 
