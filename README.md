@@ -1,21 +1,19 @@
 <p align="center">
   <a> 
-    <a href="https://api-projeto-livre.herokuapp.com/"><img src="https://img.shields.io/badge/deploy-heroku.com-blueviolet" alt="Deploy on heroku"></a>
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/lealclarissa/api-projeto-livre">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lealclarissa/api-projeto-livre">
-    <img alt="Github License" src="https://img.shields.io/github/license/lealclarissa/api-projeto-livre?logo=MIT">
-   
+    <a href="https://api-projeto-livre.herokuapp.com/"><img src="https://img.shields.io/badge/deploy-heroku.com-red" alt="Deploy on heroku"></a>
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/lealclarissa/api-projeto-livre?color=red">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lealclarissa/api-projeto-livre?color=red">
+    <img alt="Github License" src="https://img.shields.io/github/license/lealclarissa/api-projeto-livre?logo=MIT&color=red">
   </a>
 </p>
 
 <h1 align="center">
-  <img alt="Gif - API logo" title="#API - Fornece Recife" src="./assets/fornece.gif" />
+  <img alt="Gif com a logo do projeto" title="API - Fornece Recife" src="./assets/fornece.gif" />
 </h1>
 
 <p align="center">Projeto de conclusão do Bootcamp Back-End <a href="https://reprograma.com.br/">{reprograma}</a> em parceria com o <a href="https://www.portodigital.org/capital-humano/iniciativas-para-a-diversidade/mulheres-em-inovacao-negocios-e-artes-minas">MINAs</a> do Porto Digital de Recife</p>
-<h4 align="center"> 
-	:seedling:  Em Desenvolvimento  :seedling:
-</h4>
+
+### 📌 Entregue 
 
 =================
 
@@ -101,32 +99,30 @@ Gostou da proposta do projeto e tem interesse em contribuir? Acesse: [docs>CONTR
 
 ## Referências:
 
-- Matéria sobre o aplicativo Menor Preço: https://www.folhape.com.br/economia/aplicativo-mostra-onde-achar-produto-com-o-menor-preco-em-pernambuco/82021/ ; 
-- Informações para licenças: http://escolhaumalicenca.com.br/licencas/ ;
-- Lista com emojis: https://gist.github.com/rxaviers/7360908 ;
-- Conversor Markdown para HTML: https://markdowntohtml.com/ ;
-- Icone lupa: https://www.flaticon.com/svg/static/icons/svg/482/482631.svg ;
-- Imagem fornecedores: https://storyset.com/illustration/supermarket-workers/amico ;
-- Site para edição de imagem: https://www.canva.com/
+- [Matéria sobre o aplicativo Menor Preço](https://www.folhape.com.br/economia/aplicativo-mostra-onde-achar-produto-com-o-menor-preco-em-pernambuco/82021/); 
+- [Informações para licenças](http://escolhaumalicenca.com.br/licencas/);
+- [Lista com emojis:](https://gist.github.com/rxaviers/7360908);
+- [Conversor Markdown para HTML](https://markdowntohtml.com/);
+- [Icone lupa](https://www.flaticon.com/svg/static/icons/svg/482/482631.svg);
+- [Imagem fornecedores](https://storyset.com/illustration/supermarket-workers/amico);
+- [Site para edição de imagem](https://www.canva.com/);
 
 ## Agradecimentos:  
 
 Dedico este projeto a todas as mulheres inspiradoras que caminharam comigo ao longo dessa jornada: das professoras incríveis às companheiras de turma que me apoiaram a seguir adiante. Juntes somos mais fortes!
 :two_women_holding_hands:
 
-Por fim, a Edjane e Kainã que me inspiram e apoiam em busca de meus sonhos.
-
----
+Por fim, a Edjane que sempre me inspira e apoia em busca de meus sonhos.   
 
 ## Autora
 
+<p align="left">
 <a>
- <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/69424163?s=400&u=6c4ceb2494ca08ef4a05454277aee432c6b5644f&v=4" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/69424163?s=400&u=6c4ceb2494ca08ef4a05454277aee432c6b5644f&v=4" width="100px;" alt="Foto de Perfil de Clarissa"/>
  <br />
- <sub><b>Clarissa Leal</b></sub>
-</a>
-
-[![Linkedin Badge](https://img.shields.io/badge/-Clarissa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/clarissa-leal/)](https://www.linkedin.com/in/clarissa-leal/)
+</a>  
+	
+[![Linkedin Badge](https://img.shields.io/badge/-Clarissa_Leal-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/clarissa-leal/)](https://www.linkedin.com/in/clarissa-leal/)  
 
 ---
 
@@ -134,4 +130,4 @@ Por fim, a Edjane e Kainã que me inspiram e apoiam em busca de meus sonhos.
 
 Este projeto está sob a licença [MIT](./LICENSE.md).
 
-Feito com :purple_heart: por Clarissa Leal 👋🏽 [Entre em contato!](https://www.linkedin.com/in/clarissa-leal/)
+Feito com :purple_heart:
