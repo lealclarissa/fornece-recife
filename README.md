@@ -13,15 +13,13 @@
 
 <p align="center">Projeto de conclusão do Bootcamp Back-End <a href="https://reprograma.com.br/">{reprograma}</a> em parceria com o <a href="https://www.portodigital.org/capital-humano/iniciativas-para-a-diversidade/mulheres-em-inovacao-negocios-e-artes-minas">MINAs</a> do Porto Digital de Recife</p>
 
-### 📌 Entregue 
-
 =================
 
 <!--ts-->
 - [Sobre](#sobre)
 - [Tecnologias](#tecnologias)
 - [Funcionalidades](#funcionalidades)
-  - [Próximas features](#próximas-features)
+  - [Possíveis features](#possíveis-features)
 - [Como usar](#como-deseja-usar-este-projeto)
 - [Contribuição](#contribuição)
 - [Referências](#referências)
@@ -67,25 +65,25 @@ Idealmente os fornecedores fariam um *login* e seriam responsáveis por manter o
 - [x] Atualizar dados de um fornecedor específico
 - [x] Remover cadastro de um fornecedor específico
 
-### Próximas features:
+### Possíveis features:
 
-- [ ] Para os fornecedores:  
-  - [ ] Visualizar fornecedores por bairro
-  - [ ] Visualizar fornecedores por especialidade(categoria)
-  - [ ] Visualizar fornecedores por tipo de entrega;
-  - [ ] Visualizar fornecedores por forma de pagamento
-  - [ ] Visualizar fornecedores pela existência ou não de valor mínimo de compra
-  - [ ] Visualizar produtos por fornecedor
-- [ ] Para os produtos:  
-  - [ ] Filtrar produtos por nome
-  - [ ] Filtrar produtos por especialidade(categoria)
-  - [ ] Filtrar produtos por forma de pagamento
-  - [ ] Filtrar produtos por disponibilidade
-  - [ ] Visualizar fornecedores que vendem determinado produto
-- [ ] Autenticação:  
-  - [ ] Criação de *login*
-  - [ ] Gerar *token* de autenticação
-  - [ ] Autenticar todas as rotas
+- Para os fornecedores:  
+  - Visualizar fornecedores por bairro
+  - Visualizar fornecedores por especialidade(categoria)
+  - Visualizar fornecedores por tipo de entrega;
+  - Visualizar fornecedores por forma de pagamento
+  - Visualizar fornecedores pela existência ou não de valor mínimo de compra
+  - Visualizar produtos por fornecedor
+- Para os produtos:  
+  - Filtrar produtos por nome
+  - Filtrar produtos por especialidade(categoria)
+  - Filtrar produtos por forma de pagamento
+  - Filtrar produtos por disponibilidade
+  - Visualizar fornecedores que vendem determinado produto
+- Autorização e autenticação:  
+  - Criação de *login*
+  - Gerar *token* de autenticação
+  - Autenticar todas as rotas
 
 ## Como deseja usar este projeto
 
@@ -111,8 +109,6 @@ Gostou da proposta do projeto e tem interesse em contribuir? Acesse: [docs>CONTR
 
 Dedico este projeto a todas as mulheres inspiradoras que caminharam comigo ao longo dessa jornada: das professoras incríveis às companheiras de turma que me apoiaram a seguir adiante. Juntes somos mais fortes!
 :two_women_holding_hands:
-
-Por fim, a Edjane que sempre me inspira e apoia em busca de meus sonhos.   
 
 ## Autora
 
